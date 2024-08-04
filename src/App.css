@@ -18,13 +18,18 @@
     padding: 15px;
     width: 35%;
     background-color: lightblue;
-    border: 1px solid black;
-    box-shadow: 3px 3px 35px lightskyblue;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px lightgrey;
     font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    transition: transform 0.3s ease;
 }
 
 .button:hover {
     cursor: pointer;
+    transform: translate(5px, -5px);
 }
 
 .main {
